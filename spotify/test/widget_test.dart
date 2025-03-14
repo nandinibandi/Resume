@@ -8,16 +8,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:cv/main.dart';
+import 'package:spotify/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-<<<<<<< HEAD
-    await tester.pumpWidget(const MyApp());
-=======
-    await tester.pumpWidget(const resume());
->>>>>>> 0c6d6a4 (Removed all non-Dart files)
+    await tester.pumpWidget(const spotify());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
